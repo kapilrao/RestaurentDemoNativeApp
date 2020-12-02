@@ -10,6 +10,11 @@
       "resizeMode": "contain",
       "backgroundColor": "#ffffff"
     },
+    "platforms": [
+      "ios",
+      "android",
+      "web"
+    ],
     "updates": {
       "fallbackToCacheTimeout": 0
     },
@@ -17,13 +22,17 @@
       "**/*"
     ],
     "ios": {
-      "supportsTablet": true
+      "supportsTablet": true,
+      "buildNumber": "1.0.0",
+      "bundleIdentifier": "com.kapil.rao",
     },
     "android": {
       "adaptiveIcon": {
         "foregroundImage": "./assets/adaptive-icon.png",
         "backgroundColor": "#FFFFFF"
-      }
+      },
+      "package": "com.kapil.rao",
+      "versionCode": 1
     },
     "web": {
       "favicon": "./assets/favicon.png"
